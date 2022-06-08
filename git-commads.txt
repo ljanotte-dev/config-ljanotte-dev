@@ -1,0 +1,4 @@
+cd ~/.ssh
+ls -lah
+ssh-keygen -o -t rsa -C "ljanotte-dev@gmail.com"
+clip < ~/.ssh/id_rsa.pub

@@ -1,0 +1,154 @@
+
+=== Extenções ===
+
+Color Highlight
+Fluent Icons
+Go
+IntelliCode
+JSX HTML
+Material Icon Theme
+Omni Theme
+Portuguese
+Prettier
+Angular Language Service
+Auto Import
+Bracket Pair Colorizer
+Brazilian Portuguese
+Code Runner
+Code Spell Checker
+EditorConfig
+Jest
+Jest Runner
+Live Server
+Thunder Client
+
+== settings.json ===
+
+{
+    "workbench.iconTheme": "material-icon-theme",
+      "editor.fontFamily": "JetBrains Mono",
+      "editor.fontLigatures": true,
+      "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+      "terminal.integrated.profiles.windows": {
+        "Cmder": {
+          "path": "${env:windir}\\System32\\cmd.exe",
+          "args": ["/k", "C:\\Program Files\\cmder\\vendor\\bin\\vscode_init.cmd"]
+        }
+      },
+      "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    
+      "terminal.integrated.fontSize": 12,
+    
+      "editor.tabSize": 2,
+      "editor.fontSize": 14,
+      "editor.lineHeight": 24,
+      "editor.semanticHighlighting.enabled": false,
+    
+      "editor.rulers": [80, 120],
+    
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+    
+      "files.associations": {
+        ".sequelizerc": "javascript",
+        ".stylelintrc": "json",
+        ".prettierrc": "json",
+        "*.tsx": "typescriptreact"
+      },
+    
+      "typescript.tsserver.log": "off",
+      "material-icon-theme.activeIconPack": "nest",
+    
+      "material-icon-theme.folders.associations": {
+        "infra": "app",
+        "entities": "class",
+        "domain": "class",
+        "schemas": "class",
+        "typeorm": "database",
+        "repositories": "mappings",
+        "http": "container",
+        "migrations": "tools",
+        "modules": "components",
+        "implementations": "core",
+        "dtos": "typescript",
+        "fakes": "mock",
+        "websockets": "pipe",
+        "protos": "pipe",
+        "grpc": "pipe",
+        "providers": "include",
+        "subscribers": "messages",
+        "useCases": "controller",
+        "kafka": "scripts",
+        "mappers": "meta",
+        "_shared": "shared",
+        "eslint-config": "tools",
+        "kube": "kubernetes"
+      },
+    
+      "material-icon-theme.files.associations": {
+        "ormconfig.json": "database",
+        "tsconfig.json": "tune",
+        "*.proto": "3d",
+        "*.webpack.js": "webpack"
+      },
+      "window.menuBarVisibility": "toggle",
+      "cSpell.enableFiletypes": [
+        "!asciidoc",
+        "!c",
+        "!cpp",
+        "!csharp",
+        "!go",
+        "!handlebars",
+        "!haskell",
+        "!jade",
+        "!java",
+        "!latex",
+        "!php",
+        "!pug",
+        "!python",
+        "!restructuredtext",
+        "!rust",
+        "!scala",
+        "!scss"
+      ],
+      "cSpell.language": "en,pt",
+      "editor.suggestSelection": "first",
+      "cSpell.userWords": ["chakra", "middlewares", "prefetch", "rocketseat"],
+      "workbench.productIconTheme": "fluent-icons",
+      "terminal.integrated.showExitAlert": false,
+    
+      "splitHTMLAttributes.closingBracketOnNewLine": true,
+      "window.zoomLevel": 1,
+      "terminal.integrated.fontFamily": "monospace",
+      "files.autoSave": "afterDelay",
+      "workbench.colorTheme": "Omni",
+      "bracketPairColorizer.depreciation-notice": false,
+      "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "git.autofetch": true,
+      "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+    }
+    
+=== 
